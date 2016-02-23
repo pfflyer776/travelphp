@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+
+<head>
+<meta charset="utf-8">	
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=2.0, user-scalable=yes" />
+<title>Web Alcove</title>
+<link href="css/main.css" rel="stylesheet">
+</head>
+
+<body>
+
+<header id="mainHeader" role="banner">
+	<br>
+	<img id="mainLogo" src="images/webalcove.jpg">
+	<br>
+	<nav class="nav center" role="navigation">
+		<ul>
+		<li class="current"><a href="#"><img name="menu" src="images/menu.png"></a></li>
+                <li><a href="index.html"><img name="Home" src="images/home.png"></a></li>
+	    	<li><a href="about.html"><img name="About" src="images/about.png"></a></li>
+	    	<li><a href="android.html"><img name="Android" src="images/android.png"></a></li>
+	    	<li><a href="portfolio.html"><img name="Portfolio" src="images/portfolio.png"></a></li>
+	    	<li><a href="links.html"><img name="Links" src="images/links.png"></a></li>
+	    	<li><a href="contact.html"><img name="Contact" src="images/contact.png"></a></li>	    	
+	    </ul>
+	</nav>	
+</header>
+
+<main>
+<h1>About my Travel Book Android App</h1>
+<br>
+<h2>User Interface Design</h2>
+<ul class="android">
+<li>App works on Smartphones and Tablets.</li>
+<li>Uses ListView to display each place user visit.</li>
+<li>Uses ViewPager to display each picture, so user can easily swipe to next picture.</li>
+<li>Displays GPS coordinates on GoogleMaps of where picture was taken.</li>
+</ul>
+<br>
+<h2>Android API components</h2>
+<ul class="android">
+<li>Uses SQLite database to store places.</li>
+<li>Uses internal storage to store pictures as files.</li>
+<li>Uses Location Services to capture GPS and stores in database.</li>
+<li>Uses GoogleMaps API to display where picture was taken.</li>
+</ul>
+<br>
+<br>
+<div class="node">
+<h2>Node.js version of app</h2>
+<p class="android">Sends the location and images from Android phone to Amazon Web Service REST endpoints.</p>
+<br>
+<h2>Android API Components</h2>
+<ul class="android">
+<li>Uses Android Services to process data to send to cloud.</li>
+<li>Uses Retrofit 2 to send JSON data to REST endpoints.</li>
+</ul>
+</div>
+<br>
+<br>
+<div class="php">
+<h2>PHP version of app</h2>
+<p class="android">Sends the location and images from Android phone to PHP running in Apache Web Server in the cloud. This 
+version sends the data using HTTP calls directly to the web server.</p>
+<br>
+<h2>Android API Components</h2>
+<ul class="android">
+<li>Uses AsyncTask to process data and send HTTP calls to PHP Web Server in cloud.</li>
+</ul>
+</div>
+<br>
+</main>
+
+<footer id="pageFooter">
+Android &amp; Cloud Development Strategies
+</footer>
+
+</body>
+
+</html>

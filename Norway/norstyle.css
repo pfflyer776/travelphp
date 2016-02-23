@@ -1,0 +1,53 @@
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+table.navbar { background-color : #CCCCFF; }
+h1.head1 {  font-family: Verdana, Arial, Helvetica, sans-serif; font-size: 36px; color: #FF3300}
+body {  margin-top: 10px; background-color: #999999; background-image: none}
+p.para1 {  font-family: Arial, Helvetica, sans-serif; color: #99CCFF; font-size: 36px}
+p.para2 {  font-family: Georgia, "Times New Roman", Times, serif; color: #99FFFF; font-size: 18px}
+
+#navTop ul {
+	float: right;
+	list-style: none;
+	margin-right: 160px;
+}
+
+#navTop ul li {
+	display: inline;
+}
+
+#navTop ul li a {
+	padding: 0 20px;
+}
+
+#navLeft {
+	float: left;
+	width: 10%;
+	background-color : #CCCCFF;
+}
+
+#navLeft li {
+	margin-top: .5em;
+	margin-bottom: .5em;
+}
+
+#middle {
+	float: left;
+	padding-left: 1em;
+	padding-right: 1em;
+	width: 40%;
+}
+
+#rightImage {
+	width: 40%;
+	float: left;
+}
+
+#rightImage a {
+	padding-bottom: 0.5em;
+}

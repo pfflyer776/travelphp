@@ -1,0 +1,209 @@
+/*color guide:
+#e1d8b9 sand
+#cb7d20 orange
+#952 accent orange (dark)
+#3c6b92 main blue
+#2c566a teal
+#c3cebc light green
+#7f7f7f accent gray
+*/
+
+/*limited reset*/
+html, body, div, section, article, aside, header, hgroup, footer, nav, h1, h2, h3, h4, h5, h6, p, blockquote, address, time, span, em, strong, img, ol, ul, li, figure, canvas, video, th, td, tr {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+/* html5 display rule*/
+body {
+	padding: 0 50px;
+	background-color: #ffffff;
+}
+
+ul {
+	 list-style-position: inside;	
+}
+
+.android {
+	font-size:20px;
+}
+
+.blog {
+	font-size:20px;
+}
+
+.node {
+	background-color: #439F5B;
+}
+
+.php {
+	background-color: #43909F;
+}
+
+.contact_vcard {
+	padding: 10px 15px;
+	border: 1px dotted #151515;
+	width: 33.33%;
+}
+
+.social-list_item {
+	display:inline-block;
+	list-style:none;
+	margin-left:10px;	
+}
+
+.social-list_icon {
+	border: 1px dotted #151515;
+	display:block;
+	fill:currentColor;
+	height: 42px;
+	overflow:hidden;
+	text-decoration: none;
+	width: 42px;
+	padding: 10px;
+}
+
+
+#text {
+	float: left;
+	width: 350px;
+        margin-left: 150px;
+}
+
+.app {
+	float: left;
+	margin-left: 50px;	
+	width: 300px;
+}
+
+
+.app2 {
+	float: left;
+	margin-left: 50px;	
+	width: 300px;
+}
+
+/* layout styles */
+@media screen and (min-width: 601px) {
+	.nav {
+		margin: 10px 0;
+	}
+	.nav ul {
+		margin: 0;
+		padding: 0;
+	}
+	.nav li {
+		margin: 0 0px 0px 0;
+		padding: 0;
+		list-style: none;
+		display: inline-block;
+	}
+	.nav a{
+		padding: 3px 12px;
+		text-decoration: none;
+		line-height: 100%;
+	}
+
+        .nav .current {
+                display: none;
+        }
+	
+	.nav a:hover {
+		color: #cb7d20;
+	}
+	
+	.nav.center ul {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	.nav {
+		position: relative;
+		min-height: 40px;
+	}	
+	.nav ul {
+		width: 200px;
+                height: 50px;
+		padding: 0;
+		position: absolute;
+		top: 0;
+		left: 0;
+		/*background: url('../images/menu.png') no-repeat 0px 0px;*/
+		border-radius: 5px;
+	}
+	.nav li {
+		display: none; /* hide all <li> items */
+		margin: 0;
+	}
+        .nav .current {
+                display: block;
+        }
+
+	.nav a {
+		display: block;
+ 		/*padding: 5px 5px 5px 32px;*/
+		text-align: left;
+	}
+	
+	/* on nav hover */
+ 	.nav ul:hover {
+ 		background-image: none;
+	}
+
+	.nav ul:hover li {
+		display: block;
+		margin: 0;
+                padding: 0;
+	}
+
+	/* center nav */
+	.nav.center ul {
+		left: 50%;
+		margin-left: -90px;
+	}
+	
+}
+
+#mainLogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*main section styles*/
+
+main h1 {
+	font-weight: normal;
+	font-size: 2.5em;
+}
+
+main h2 {
+	font-weight: normal;
+	font-size: 1.8em;
+}
+
+#aboutpara {
+	width: 700px;	
+}
+
+.aboutcontent {
+	font-size: 1.5em
+}
+
+.portfolio li {
+	margin: 0 5px 10px 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+}
+
+
+/*footer styles*/
+footer#pageFooter {
+	clear:both;
+	font-family: Verdana;
+	font-size: x-large;
+	text-align: center;
+}
